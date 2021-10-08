@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+body{
+    background: #f7f7f7;
+    font-family: 'Open Sans', sans-serif;
+    width: 900px;
+    text-align: justify;
+    background-color: rgb(183, 190, 190);
+    margin:auto;
+}
+.photo{
+    border: 1px solid #505050;
+    margin-top: 10px;
+    border-radius: 25%;
+    width: 100px;
+}
+#title, .subtitle, .post_title{
+    color: #505050;
+}
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color: #505050;
+    
+}
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0px;
+    margin-top: 10px;
+    
+    margin-bottom: 15px;
+}
+.post{
+    background: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 3px solid #505050;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.post_content{
+    margin: 0px;
+    margin-bottom: 15px;
+}
+.post_image{
+    position: relative;
+    margin-bottom:15px;
+    width: 100%;
+    border-radius: 0.5%;
+  
+}
+.contacts_list{
+    padding-left: 5px;
+    list-style-type: none;
+}
+.contacts_list li a {
+    text-decoration: none;
+}
